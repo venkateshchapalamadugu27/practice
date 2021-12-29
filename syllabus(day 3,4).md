@@ -66,11 +66,70 @@ TASK 3:
   - md(medium devices)
   - lg(large devices)
   - xl(Extra large devices)
++ modal
++ table
+### Javascript
 
++ in 1995 ,'Brenden Eich' introduced this(ES262)
++ JavaScript is loosely touple and dynamic language
++ it is a text based programming language and
+  we can use in client-side and server side for 
+   dynamic web applications
+- ECMA(ES-6)
+  - let & const.
+  - map()
+  - arrow function
+  - classes
+  - spread operator
+  - rest parameter
++ data types
+  - Number
+  - BigInt(2^53-1)
+  - String
+  - Boolean
+  - Undefined
+  - Null
+  - Object
+  - Array
++ variables  
+  - var
+  - let
+  - const
+  - scope
+     - function level --> var
+     - block level --> let &const
+  - redefine --> var,let
+  - redeclare --> var
++ typeof()
++ object
+ '''
+  {
+    name:"venki"
+  }
++ Array
+### Alerts
++ To generate
+ - alert 
+ - prompt (to take input from user)
+ - confirm
++ console statements
+  - `console.log()`
+  - `console.info()`
+  - `console.warn()`
+  - `console.error()`
 
++ spread operator
+ - to change  array elements from one array to another(swamp)
+```
+    ...variable name
+```   
++ rest parameter
+  + to handle function parameters
+    ```
+     ...parameter
+    ```
 
-
-
++ Destructuring of array & objects  
 #### Bootstrap 4.6
 
   - It is a CSS framework.

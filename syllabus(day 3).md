@@ -60,7 +60,12 @@ TASK 3:
   - text(text-while)
   - background(bg-secondary)
   - alerts(alert alert-primary)
-
++ grid system
+  - col-sm-2
+  - sm(small devices)
+  - md(medium devices)
+  - lg(large devices)
+  - xl(Extra large devices)
 
 
 

@@ -53,13 +53,74 @@
 
 //  Destructuring of array
 
-let employee={
-         uname:"Neon",
-       designation:"Manager",
-       salary:"$100k",
-      phno:5343675678 }
+// let employee={
+//          uname:"Neon",
+//        designation:"Manager",
+//        salary:"$100k",
+//       phno:5343675678 }
       
-let {uname,designation,...remainList}=employee;
-console.log(uname);
-console.log(designation);
-console.log(remainList);
+// let {uname,designation,...remainList}=employee;
+// console.log(uname);
+// console.log(designation);
+// console.log(remainList);
+// FUnction
+
+
+
+// Anonymous Function
+// let demo=function(x,y){
+//   return x+y
+// }
+// console.log(demo(3,4))
+
+
+// (function(x,y){
+//   return x*y
+// })()
+
+
+//  setTimeout(function(){
+//  console.log("welcome")
+//  },3000)
+
+ //Arrow fun
+//  let demo= (x,y) =>{
+//    return x+y
+//  }
+//  console.log(demo(4,4))
+
+
+let employees=["thanu","rithwin","venki"]
+// for(let i=0;i<employees.length;i++)
+// {
+//   console.log(employees[i])
+// }
+
+//for-in
+// for(let i in employees)
+// {
+//   console.log(i)
+// }
+
+//for-of
+// for(let i of employees)
+// {
+//   console.log(i)
+// }
+
+
+
+// forEach
+ let results=employees.forEach(function(element){
+   console.log(element+" ok")
+
+ })
+
+
+//map
+let results1=employees.map((element,index)=>{
+   return element+"k"+index
+
+  })
+  console.log(employees)
+/  console.log(results1)

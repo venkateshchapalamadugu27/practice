@@ -11,6 +11,15 @@
     
 </head>
 <body>
+    <div class="main">
+       <div class="child">
+         <h2>Heading2
+             <span>text</span>
+             <a href="https://www.battl===egroundsmobileindia.com/">link</a>
+         </h2>
+
+       </div>
+    </div>
     <script>
             //   console.log("welcome")
             // function demo(){
@@ -30,8 +39,17 @@
 // var age=27;
 // console.log(typeof(age))
 // var age=null;
-//  console.log(typeof(age))
+//  console.log(typeof(age))    
+var main=document.querySelector(".main");
+var child=document.querySelector(".child");
 
+
+var Heading=document.createElement('h1');
+Heading.textContent="welcome";
+main.appendChild(Heading);
+child.appendChild(child);
+var content=document.getElementById("demo").innerHTML
+console.log(content)
    </script>
 </body>
 </html>

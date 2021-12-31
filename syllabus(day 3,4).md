@@ -1,3 +1,153 @@
+//SYLLABUS
+   
+###  Front-end Technologies
+
+     - HTML
+     - CSS
+     - JavaScript
+     - BootStarp framework
+     - Angular framework
+     - ReactJs
+
+###  Back-end Technologies
+- NodeJs
+- PHP
+- c#
+- Java
+- Python
+
+ ###   Databases
+- MongoDb
+- Mysql
+- SQLite
+- Firebase
+- PostgresSql
+- Oracle
+
+
++ VCS or Source code management
+     - Distributed VCS
+         - git,mercurinsl
+     - remote(central)  VCS
+          
+
+###  Git
+   - git init
+   - git add filename
+   - git add filename1 filename  
+   - git add . (or) git add --all
+   - git status
+   - git commit(set congiguration)
+      - git commit -m "msg"
+   - git remote add origin<link>
+   - git push -u origin master
+
+###  HTML5
+    - Hyper Text Markup Language
+    - Semantic elements
+       - header
+       - section
+       - article
+       - aside
+       - footer
+       - table
+    - Block Level Elements
+       - h1 to h6
+       - paragraph(p)
+       - div
+       - all semantic elements
+       - Text will start from newline
+    - Inline elements
+       - span
+       - img
+       - a
+       - nav  
+       - form
+       - input
+       - textarea
+       - legend
+       - sup
+       - sub
+       - unorder list(ul)
+       - ordered list(ol)
+##### Reference Links
+- Flaticon  https://www.flaticon.com
+- contrast checker https://webaim.org/resources/contrastchecker/   
+- clor codes
+Task:
+=====
+     
+       - Audio
+       - Vedio
+       - canvas
+       - progress
+       - datalist
+       - meter
+       - select
+
+#CSS
+ + cascading style sheets
+ +_ Types of CSS
+     - Inline CSS
+     - External CSS
+      
+  + Syntax of CSS
+   
+   ''' 
+   selector{
+          css properties
+   }  
+   '''
+#### selectors
+  + simple selectors
+     - universal selector(*)
+     - By element Name
+     - Grouping selector(,)
+     - class selector
+     - id selector (#)
+
+  + Combinators   
+    + Descendent selector () {inside divisio}
+    + Child selector (>){child of division}
+    + Adjacent sibling selector (+)
+    + General sibling selector (~)
+  + Pseudo class selector]
+  + Pseudo element selector
+  + Attribute selector  
+
+  ### Box Models
+   - margin
+   - boarder
+   - padding
+      - padding: 10px (for all sides}
+      - padding:10px 30px(10px for top and 30px for right)
+      -padding :10px 300px 50(10 for top,300 for left and right,50 for bottom)
+      -padding :10px 4px 4px 6px
+   - width
+   - 1rem=16px
+
+
+
+  ##### Flex-box
+   + display
+     - none
+     - Inline
+     - Block
+     - Inline-Block
+   + position
+    - static
+    - relatice
+    - absolute
+    - fixed
+    - sticky
+   +  align-content
+   + align-items
+   + align-itself
+#### Resonsive web design 
+#### Flex-box
+     - flex
+     -
+
 ### Media quries
 
 - Extra small devices (Mobiles)
@@ -130,6 +280,186 @@ TASK 3:
     ```
 
 + Destructuring of array & objects  
+
+
++ functions
+  - function with functionname
+  ```
+  function demo(x,y){
+    return x+y
+  }
+  demo()
+  ```
+  - Anynomous function(without name)
+  ```
+  let demo=function(x,y)
+  {
+    return x+y
+  }
+  ```
+  - Arrow function
+  ```
+
+  ```
++ for-in
+ - index values gets printed
++ for-of
+ - values get printed
++ forEach() --> (ES-5)
++ map() --> (ES-6)
+
+
+
+### DOM
+  - Document Object Model
+  - document
+  - history
+  - window
+  - navigator
++ dom methods
+    - `getElementId()`
+    - `getElementsByClassName()`
+    - `innerText`
+    - `textContent`
+    - `append`
+    - `appendChild`
+    - `innerHTML`
+    - `setAttribute()`
+    - `classList`
+    - `style`
+    - `src`
+    - `querySelector()`
+    
+### JSON
+ - JavaScript Object Notation
+ - To exchange information between application and server
+ ```
+ {
+ "name":"Venkatesh",
+ "salary":"5LPA",
+ "designation":"BTLYT",
+ "mobile":9121336407
+ }
+
+ ```  
+ + Ajax calls or Promises (fetch API) or axios
+ 
+
+ ### ReactJs
+
+ + It is a library
+ + It follows a compound based architecture
+   - Function Component 
+   - class component
+   - Pure component
+   - Higher order component
++  It provides virtual DOM
++ it provides JSX(JavaScript and XML)
++ Unidirectional data flow
++ Single Page Applications
+
+
++ props 
+  - To pass data from one component to another component we will use props
+  - Props are immutable
+  
++ Union bank(Functional)
+  - AndhraBank(Functional)
+  - CorporationBank(class)
+
++ States
+ - In react to maintain information we will use states
+ - we can maintain states in class component only(Before react16.8 version)
+ - To take state in react.Try to create constructor above render method and inside of class component
+ ```
+ constructor(){
+   super();
+   this.state={
+
+   }
+ }
+
+ ```
+  - To update the state information in class component use `setState()` method
+  - To update the information in class componemt we have to follow the component life cycles method
+   - `componentWillMount()`
+   - `componentDidMount()`
+   - `componentWillUnmount()`
+   - `componentWillUpdate()`
+   - `componentWillReceiveProps()`
+   - `shouldComponentUpdate()`
+  
+#### Hooks
+
++ form react 16.8 
+
+ - To maintain information in  Functional component we can use Hooks
+
+
+
+
+
+
+
+
++  Project Environment setup
+  - 
+  - [download Nodejs]
+  - install nodejs and check versions `node` and `npm`
+     - `node -v`
+     - `npm -v`
+     
+  - `webpack` and `babel`
+  - `create-react-app`
+     - `npm install create-react-app`
+        - `create-react-app projectname`
+  - `npx create-react-app appname`
+
++ Index.html
++ Index.js
++ App.js  
+     + Indexpage
+        - nav.js
+        - body.js
+        - footer.js  
++ Home.js
+  - nav
+  - body
+  - footer
++ Login.js
++ Register 
++ About
++ contact
+
+
+
+
+#### List Rendering
+
+###  Event Handling & form handling
+   - `onChange`
+   -  `onSubmit`
+   - `preventDefault`
+### routing in React
++ to navigate from one component to another
+  - install reacter-router-dom  package by using
+    `npm install reacter-router-dom`
+  - `BrowserRouter` 
+  - `Routes`
+  - `Route`
+     - `link`
+  - `path`
+  - `element`
+  
++ Redux 
+    
+  - shorturl.at/jnxzN
+
+
+
+
+
+
 #### Bootstrap 4.6
 
   - It is a CSS framework.
